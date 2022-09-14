@@ -47,7 +47,44 @@ ul li {
     list-style-type: none;
 }
 
+.mainpage {
+    justify-content: center;
+    align-items: center;
+}
 
+.mainpage-title {
+    width: 582px;
+    /* height: 270px; */
+}
+
+.mainpage-title-heading {
+    font-size: 52PX;
+}
+
+.book-button {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(224, 44, 109, 1);
+    margin-top: 50px;
+    padding: 10px 24px 10px 24px;
+    border-radius: 41px;
+}
+
+.mainpage-img {
+    background-image: url("media/images/Circle\ design.svg");
+    width: 475px;
+    height: 475px;
+}
+
+.mainpage-img:hover .mainpage-img-format {
+    transform: rotate(-360deg);
+    transition: transform 1s ease-in-out;
+}
+
+.mainpage-img-format {
+    width: 440px;
+    height: 414px;
+}
 
 
 
