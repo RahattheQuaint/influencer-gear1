@@ -198,6 +198,31 @@ ul li {
 
 }
 
+/* footer area */
+.footer {
+    text-align: center;
+    background-color: #18191F;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-title {
+    padding-top: 50px;
+
+    font-size: 24px
+}
+
+.copy-thred {
+    color: #D9DBE1;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    color: white;
+
+
+}
+
 /* .mainpage-sponsor {
     text-align: center;
 } */
