@@ -7,13 +7,6 @@ section {
     align-items: center;
 }
 
-.heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
 .heading-menu-icon {
     margin-right: 30px;
     color: black;
@@ -86,9 +79,31 @@ ul li {
     height: 414px;
 }
 
+.break-line {
+    width: 1110px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+
+}
+
+.sponsor-part {
+
+    width: 986.47px;
+    padding-left: 500px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
 
 
-/* */
+}
+
+/* .mainpage-sponsor {
+    text-align: center;
+} */
+
+
+
+
 
 /* .header-part {
     align-items: center;
