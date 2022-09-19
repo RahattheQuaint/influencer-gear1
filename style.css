@@ -324,23 +324,34 @@ middle part
 
     .middle-part {
         flex-direction: column;
+        justify-content: center;
 
     }
 
     .middle-part-img {
         width: 299px;
         height: 188px;
+    }
+
+    .middle-part-img img {
+
+        width: 299px;
+        height: 188px;
+        text-align: center;
 
     }
 
-    .middle-part-details h1 {
-        width: 311px;
-        height: 72px;
-        font-size: 24px;
-        margin-left: 29px;
-        margin-right: 20px;
+    .middle-part-details {
+        width: 329px;
+        height: 139px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+
     }
 
-    .middle-part-details a {}
+    .middle-part-details a {
+        text-align: center;
+    }
+
 
 }
